@@ -6,7 +6,11 @@ simple trailing-whitespace trimmer for saving files
 preserves line-endings as long as they're either LF (Unix) or CRLF (Windows).
 
 usage (read lines from stdin and trim on the fly):  
-  clt
+```
+clt
+```
   
 or (trim file and overwrite):
-  clt file.txt
+```
+clt [filename]
+```
